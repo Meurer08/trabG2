@@ -1,0 +1,21 @@
+.card {
+    border: "1px solid black";
+    height: "700px";
+    max-width: "100%";
+}
+
+.imageHoverZoom {
+    height: 700px;
+    overflow: hidden;
+}
+
+.imageHoverZoom img {
+    transform-origin: right top;
+    transform: translateX(-30%);
+    transition: transform 1s ease-out;
+}
+
+.imageHoverZoom:hover img {
+    transform-origin: right top;
+    transform: scale(1.5);
+}
